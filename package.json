@@ -1,0 +1,30 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "solid-devtools": "^0.34.3",
+    "typescript": "^5.7.2",
+    "vite": "^7.1.4",
+    "vite-plugin-solid": "^2.11.8"
+  },
+  "dependencies": {
+    "@perspective-dev/client": "^4.0.0",
+    "@perspective-dev/react": "^4.0.0",
+    "@perspective-dev/viewer": "^4.0.0",
+    "@perspective-dev/viewer-d3fc": "^4.0.0",
+    "@perspective-dev/viewer-datagrid": "^4.0.0",
+    "solid-js": "^1.9.5",
+    "superstore-arrow": "^3.2.0",
+    "vite-plugin-top-level-await": "^1.6.0",
+    "vite-plugin-wasm": "^3.5.0"
+  }
+}
